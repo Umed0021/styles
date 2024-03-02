@@ -3,12 +3,42 @@
     padding: 0;
 }
 body{
-    background-color: rgba(137, 137, 137, 0.729);
+    /* background-color: rgba(137, 137, 137, 0.729); */
     font-family: 'Times New Roman', Times, serif;
 }
+
+.container{
+        max-width: 1200px;
+        margin: 0 auto;
+      
+}
+
+.logo__nishon img{
+    width: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .text_h {
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  }
+
+  .text__h4{
+    text-align: end;
+  }
+
 .navbar{
     overflow: hidden;
-    background-color: #6d6c6c80;
+    background-color: rgb(47, 100, 214);
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -46,9 +76,7 @@ body{
     list-style: none;
     margin-top: 25px;
 }
-/* .dropdown-content_1{
-    min-width: 160px;
-} */
+
 .dropdown-content a{
     float: none;
     color: #fff;
@@ -67,11 +95,10 @@ body{
 }
 h1{
     text-align: center;
-    color: #04414a;
+    color: blue;
     letter-spacing: 0.5px;
-    margin-top: 20px;
-    text-shadow: 0px 1px 2px #04414a;
     font-style: italic;
+    font-size: 40px;
 }
 .p_2{
     width: 90%;
@@ -134,20 +161,12 @@ i{
 }
 .video video{
     width: 600px;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 30px;
     border-radius: 3px;
     box-shadow: 1px 1px 1px #9c9c9c, -1px -1px 1px #9c9c9c;
 }
-.fot{
-    background-color: rgba(158, 157, 157, 0.729);
-    font-size: 17px;
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    letter-spacing: 0.5px;
-    text-shadow: 2px 1px 2px rgba(137, 137, 137, 0.729);
-}
+
 .blog{
     display: flex;
     justify-content: space-between;
@@ -166,4 +185,29 @@ i{
 .blog .box:active{
     color: #fff;
     
+}
+
+
+.fot{
+    background-color:#17202b;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    /* text-shadow: 2px 1px 2px rgba(137, 137, 137, 0.729); */
+}
+
+.box_2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.direktor{
+margin-top: 20px;
+}
+
+.rohbar{
+    margin-top: 20px;
 }
