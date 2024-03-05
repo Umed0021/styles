@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-        max-width: 1200px;
+        max-width: 1350px;
         margin: 0 auto;
       
 }
@@ -161,12 +161,14 @@ i{
 }
 .video video{
     width: 600px;
-    margin-left: 300px;
+    margin-left: 380px;
     margin-top: 30px;
     border-radius: 3px;
     box-shadow: 1px 1px 1px #9c9c9c, -1px -1px 1px #9c9c9c;
 }
-
+.roh{
+    font-size: 15px;
+}
 .blog{
     display: flex;
     justify-content: space-between;
@@ -180,10 +182,10 @@ i{
     color: #1f1f1f;
 }
 .blog .box:hover{
-    color: rgb(202, 20, 20);
+    color: #f68206;
 }
 .blog .box:active{
-    color: #fff;
+    color: #4d4c4c;
     
 }
 
@@ -202,12 +204,113 @@ i{
 .box_2{
     margin-top: 20px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .direktor{
 margin-top: 20px;
 }
-
 .rohbar{
+    margin-top: 30px;
+}
+
+.menu_list{
+    margin-left: 60px;
     margin-top: 20px;
+}
+.h2{
+    text-align: center;
+    color: rgb(14, 55, 203);
+    font-size: 24px;
+    margin: 20px 0;
+    font-style: italic;
+}
+.list{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #1b1b1b;
+    line-height: 35px;
+}
+.list a:hover{
+    color: #f68206;
+}
+.list a:active{
+    color: #4d4c4c;
+}
+
+.blog_2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.par{
+    font-size: 20px;
+    font-style: italic;
+    margin: 25px 0;
+}
+.text_2{
+    text-align: right;
+    margin-right: 20px;
+    line-height: 25px;
+}
+.par_2{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.par_3{
+    text-align: center;
+    margin: 20px 0;
+
+}
+.par_7{
+    font-size: 15px;
+}
+.text{
+    width: 87%;
+    text-indent: 30px;
+    font-size: 17px;
+    text-align: justify;
+    margin: auto;
+    line-height: 40px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+.par_4{
+    color: blue;
+    font-style: italic;
+    font-size: 28px;
+}
+.par_10{
+    font-size: 20px;
+}
+.par_5{
+    line-height: 30px;
+    font-size: 15px;
+}
+.par_6{
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+}
+.text_5{
+    font-size: 17px;
+    width: 87%;
+    padding: 20px 0;
+    text-align: justify;
+    text-indent: 30px;
+    margin: auto;
+    line-height: 30px;
+}
+.blog_4{
+    text-indent: 30px;
+    font-size: 17px;
+    padding-top: 30px;
+    width: 87%;
+    margin: auto;
+    line-height: 40px;
+    text-align: justify;
 }
