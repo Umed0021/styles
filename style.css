@@ -314,3 +314,222 @@ margin-top: 20px;
     line-height: 40px;
     text-align: justify;
 }
+.txt{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+    color: blue;
+    font-style: italic;
+}
+.txt_par{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+.txt_1{
+    width: 87%;
+    margin: auto;
+    line-height: 40px;
+    font-size: 17px;
+    text-indent: 30px;   
+}
+.zab{
+    text-align: center;
+   margin-top: 70px;
+}
+.zab h2{
+    font-size: 34px;
+    color: blue;
+    font-style: italic;
+}
+.zab p,h2{
+    padding: 10px 0;
+}
+.zabon{
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 30px;
+}
+.zabon:hover{
+    color: #f68206;
+}
+.zabon:active{
+    color: rgb(87, 87, 87);
+}
+.fot_2{
+    margin-top: 120px;
+}
+.zag{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 28px;
+    font-style: italic;
+    color: blue;
+}
+.farh{
+    display: flex;
+   margin-left: 70px;
+}
+
+.txt_kit{
+  width: 87%;
+  margin-left: 40px;
+  text-indent: 30px;
+  font-size: 17px;
+  line-height: 40px;
+  text-align: justify;
+}
+.txt_kit p{
+    margin-left: 40px;
+
+}
+.txt_kit a{
+   text-decoration: none;
+   color: #000;
+}
+.txt_kit a:hover{
+    color: #f68206;
+}
+.txt_kit a:active{
+    color: #9c9c9c;
+}
+.txt_feh{
+    margin: auto;
+}
+.zag_2{
+    padding-top:60px;
+}
+.txt_kit2{
+    text-align: center;
+}
+.txt_kit3{
+    margin-top: 10px;
+}
+.txt_kit4{
+   margin-left: 80px;
+     
+}
+.txt_kit4 p{
+    padding: 10px 0;
+}
+.zag_2{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+.zag_5{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.pas{
+    display: flex;
+    margin-left: 100px;
+}
+.pas_img img{
+    width: 400px;
+    height: 43vh;
+}
+.pas_txt{
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 17px;
+    width: 60%;
+    margin-left: 30px;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+.tol{
+    text-align: center;
+}
+.tol a{
+    font-size: 17px;
+    line-height: 45px;
+    color: #000;
+    text-decoration: none;
+    
+}
+.tol_hon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tol a:hover{
+    color: #f68206;
+}
+.zag_6{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.fot_3{
+    margin-top: 55px;
+}
+.rej{
+    text-align: center;
+    line-height: 40px;
+    font-size: 17px;
+}
+.fot_3{
+    margin-top: 135px;
+}
+.surat img{
+    width: 600px;
+    height: 400px;
+    margin-left: 350px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+label{
+    color: #9c9c9c;
+    font-size: 17px;
+}
+form{
+    margin-left: 450px;
+}
+textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+input{
+    outline: none;
+    padding-left: 10px;
+    width: 440px;
+    font-size: 17px;
+    padding: 5px;
+    line-height: 25px;
+    margin: 15px 0;
+}
+input:focus{
+    background-color: rgba(25, 52, 57, 0.905);
+    border: none;
+    color: #fff;
+}
+textarea:focus{
+    background-color: rgba(25, 52, 57, 0.905);
+    border: none;
+    color: #fff;
+}
+button{
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    margin-left: 10px;
+    color: #fff;
+    background-color: rgb(16, 69, 121);
+    border: none;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #fff;
+    color: rgb(14, 55, 203);
+}
+button:active{
+    color: #000;
+}
+.fot_10{
+    margin-top: 55px;
+}
+.zag_10{
+    margin-top: 20px;
+}
